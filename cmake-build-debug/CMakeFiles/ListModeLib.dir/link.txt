@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libListModeLib.so -o libListModeLib.so CMakeFiles/ListModeLib.dir/utils.c.o CMakeFiles/ListModeLib.dir/list_mode.c.o CMakeFiles/ListModeLib.dir/fat32_lib.c.o CMakeFiles/ListModeLib.dir/ListModeLib.c.o 

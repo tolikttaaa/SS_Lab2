@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.c
+malloc.h
+-
+fcntl.h
+-
+unistd.h
+-
+sys/stat.h
+-
+string.h
+-
+fat32_lib.h
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.h
+script_mode.h
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.h
+utils.h
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c
+string.h
+-
+stdlib.h
+-
+utils.h
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h
+dirent.h
+-
+argp.h
+-
+
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h
+

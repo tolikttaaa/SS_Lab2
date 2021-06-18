@@ -1,0 +1,4 @@
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ScriptModeLib.dir
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir

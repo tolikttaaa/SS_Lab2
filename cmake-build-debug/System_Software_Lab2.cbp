@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="System_Software_Lab2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ScriptModeLib">
+				<Option output="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/libScriptModeLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScriptModeLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ScriptModeLib/fast">
+				<Option output="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/libScriptModeLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScriptModeLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ListModeLib">
+				<Option output="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/libListModeLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListModeLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ListModeLib/fast">
+				<Option output="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/libListModeLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListModeLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ListModeLib.c">
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ListModeLib.h">
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ScriptModeLib.c">
+			<Option target="ScriptModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ScriptModeLib.h">
+			<Option target="ScriptModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c">
+			<Option target="ScriptModeLib"/>
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.h">
+			<Option target="ScriptModeLib"/>
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/list_mode.c">
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/list_mode.h">
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.c">
+			<Option target="ScriptModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.h">
+			<Option target="ScriptModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c">
+			<Option target="ScriptModeLib"/>
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h">
+			<Option target="ScriptModeLib"/>
+			<Option target="ListModeLib"/>
+		</Unit>
+		<Unit filename="/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

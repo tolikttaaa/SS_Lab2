@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libScriptModeLib.so -o libScriptModeLib.so CMakeFiles/ScriptModeLib.dir/utils.c.o CMakeFiles/ScriptModeLib.dir/script_mode.c.o CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o 
