@@ -23,4 +23,4 @@
 hs_err_pid*
 
 # cmake
-cmake-build-debug/
+cmake-build-debug/*

@@ -6,11 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ScriptModeLib.c
+ScriptModeLib.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ScriptModeLib.h
+script_mode.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.h
+fat32_lib.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.h
 
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.c
-malloc.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ScriptModeLib.h
+jni.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c
+string.h
 -
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+fat32_lib.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni_md.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni_md.h
+
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.c
+stdlib.h
+-
+stdio.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/stdio.h
 fcntl.h
 -
 unistd.h
@@ -20,25 +56,25 @@ sys/stat.h
 string.h
 -
 fat32_lib.h
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.h
 script_mode.h
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.h
 utils.h
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.h
 
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.h
 
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c
 string.h
 -
 stdlib.h
 -
 utils.h
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.h
 dirent.h
 -
-argp.h
--
+stdio.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/stdio.h
 
-/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.h
 

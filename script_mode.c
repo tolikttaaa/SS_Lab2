@@ -2,7 +2,8 @@
 // Created by ttaaa on 4/22/21.
 //
 
-#include <malloc.h>
+#include <stdlib.h>
+#include "stdio.h"
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/stat.h>

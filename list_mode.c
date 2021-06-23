@@ -3,7 +3,6 @@
 //
 
 #include <string.h>
-#include <bits/types/FILE.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "list_mode.h"

@@ -62,10 +62,10 @@ RM = /home/ttaaa/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.6693.114/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2
+CMAKE_SOURCE_DIR = /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ScriptModeLib.dir/depend.make
@@ -78,55 +78,55 @@ include CMakeFiles/ScriptModeLib.dir/flags.make
 
 CMakeFiles/ScriptModeLib.dir/utils.c.o: CMakeFiles/ScriptModeLib.dir/flags.make
 CMakeFiles/ScriptModeLib.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ScriptModeLib.dir/utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/utils.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ScriptModeLib.dir/utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/utils.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c
 
 CMakeFiles/ScriptModeLib.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScriptModeLib.dir/utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c > CMakeFiles/ScriptModeLib.dir/utils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c > CMakeFiles/ScriptModeLib.dir/utils.c.i
 
 CMakeFiles/ScriptModeLib.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScriptModeLib.dir/utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c -o CMakeFiles/ScriptModeLib.dir/utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c -o CMakeFiles/ScriptModeLib.dir/utils.c.s
 
 CMakeFiles/ScriptModeLib.dir/script_mode.c.o: CMakeFiles/ScriptModeLib.dir/flags.make
 CMakeFiles/ScriptModeLib.dir/script_mode.c.o: ../script_mode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ScriptModeLib.dir/script_mode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/script_mode.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ScriptModeLib.dir/script_mode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/script_mode.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.c
 
 CMakeFiles/ScriptModeLib.dir/script_mode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScriptModeLib.dir/script_mode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.c > CMakeFiles/ScriptModeLib.dir/script_mode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.c > CMakeFiles/ScriptModeLib.dir/script_mode.c.i
 
 CMakeFiles/ScriptModeLib.dir/script_mode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScriptModeLib.dir/script_mode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/script_mode.c -o CMakeFiles/ScriptModeLib.dir/script_mode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/script_mode.c -o CMakeFiles/ScriptModeLib.dir/script_mode.c.s
 
 CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o: CMakeFiles/ScriptModeLib.dir/flags.make
 CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o: ../fat32_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c
 
 CMakeFiles/ScriptModeLib.dir/fat32_lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScriptModeLib.dir/fat32_lib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c > CMakeFiles/ScriptModeLib.dir/fat32_lib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c > CMakeFiles/ScriptModeLib.dir/fat32_lib.c.i
 
 CMakeFiles/ScriptModeLib.dir/fat32_lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScriptModeLib.dir/fat32_lib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c -o CMakeFiles/ScriptModeLib.dir/fat32_lib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c -o CMakeFiles/ScriptModeLib.dir/fat32_lib.c.s
 
 CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o: CMakeFiles/ScriptModeLib.dir/flags.make
 CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o: ../ScriptModeLib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ScriptModeLib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ScriptModeLib.c
 
 CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ScriptModeLib.c > CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ScriptModeLib.c > CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.i
 
 CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ScriptModeLib.c -o CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ScriptModeLib.c -o CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.s
 
 # Object files for target ScriptModeLib
 ScriptModeLib_OBJECTS = \
@@ -144,7 +144,7 @@ libScriptModeLib.so: CMakeFiles/ScriptModeLib.dir/fat32_lib.c.o
 libScriptModeLib.so: CMakeFiles/ScriptModeLib.dir/ScriptModeLib.c.o
 libScriptModeLib.so: CMakeFiles/ScriptModeLib.dir/build.make
 libScriptModeLib.so: CMakeFiles/ScriptModeLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libScriptModeLib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libScriptModeLib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScriptModeLib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/ScriptModeLib.dir/clean:
 .PHONY : CMakeFiles/ScriptModeLib.dir/clean
 
 CMakeFiles/ScriptModeLib.dir/depend:
-	cd /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2 /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2 /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ScriptModeLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2 /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2 /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles/ScriptModeLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ScriptModeLib.dir/depend
 

@@ -62,10 +62,10 @@ RM = /home/ttaaa/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.6693.114/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2
+CMAKE_SOURCE_DIR = /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ListModeLib.dir/depend.make
@@ -78,55 +78,55 @@ include CMakeFiles/ListModeLib.dir/flags.make
 
 CMakeFiles/ListModeLib.dir/utils.c.o: CMakeFiles/ListModeLib.dir/flags.make
 CMakeFiles/ListModeLib.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ListModeLib.dir/utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/utils.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ListModeLib.dir/utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/utils.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c
 
 CMakeFiles/ListModeLib.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ListModeLib.dir/utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c > CMakeFiles/ListModeLib.dir/utils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c > CMakeFiles/ListModeLib.dir/utils.c.i
 
 CMakeFiles/ListModeLib.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ListModeLib.dir/utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c -o CMakeFiles/ListModeLib.dir/utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c -o CMakeFiles/ListModeLib.dir/utils.c.s
 
 CMakeFiles/ListModeLib.dir/list_mode.c.o: CMakeFiles/ListModeLib.dir/flags.make
 CMakeFiles/ListModeLib.dir/list_mode.c.o: ../list_mode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ListModeLib.dir/list_mode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/list_mode.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/list_mode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ListModeLib.dir/list_mode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/list_mode.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/list_mode.c
 
 CMakeFiles/ListModeLib.dir/list_mode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ListModeLib.dir/list_mode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/list_mode.c > CMakeFiles/ListModeLib.dir/list_mode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/list_mode.c > CMakeFiles/ListModeLib.dir/list_mode.c.i
 
 CMakeFiles/ListModeLib.dir/list_mode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ListModeLib.dir/list_mode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/list_mode.c -o CMakeFiles/ListModeLib.dir/list_mode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/list_mode.c -o CMakeFiles/ListModeLib.dir/list_mode.c.s
 
 CMakeFiles/ListModeLib.dir/fat32_lib.c.o: CMakeFiles/ListModeLib.dir/flags.make
 CMakeFiles/ListModeLib.dir/fat32_lib.c.o: ../fat32_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ListModeLib.dir/fat32_lib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/fat32_lib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ListModeLib.dir/fat32_lib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/fat32_lib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c
 
 CMakeFiles/ListModeLib.dir/fat32_lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ListModeLib.dir/fat32_lib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c > CMakeFiles/ListModeLib.dir/fat32_lib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c > CMakeFiles/ListModeLib.dir/fat32_lib.c.i
 
 CMakeFiles/ListModeLib.dir/fat32_lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ListModeLib.dir/fat32_lib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c -o CMakeFiles/ListModeLib.dir/fat32_lib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c -o CMakeFiles/ListModeLib.dir/fat32_lib.c.s
 
 CMakeFiles/ListModeLib.dir/ListModeLib.c.o: CMakeFiles/ListModeLib.dir/flags.make
 CMakeFiles/ListModeLib.dir/ListModeLib.c.o: ../ListModeLib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ListModeLib.dir/ListModeLib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/ListModeLib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ListModeLib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ListModeLib.dir/ListModeLib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ListModeLib.dir/ListModeLib.c.o -c /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.c
 
 CMakeFiles/ListModeLib.dir/ListModeLib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ListModeLib.dir/ListModeLib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ListModeLib.c > CMakeFiles/ListModeLib.dir/ListModeLib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.c > CMakeFiles/ListModeLib.dir/ListModeLib.c.i
 
 CMakeFiles/ListModeLib.dir/ListModeLib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ListModeLib.dir/ListModeLib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ListModeLib.c -o CMakeFiles/ListModeLib.dir/ListModeLib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.c -o CMakeFiles/ListModeLib.dir/ListModeLib.c.s
 
 # Object files for target ListModeLib
 ListModeLib_OBJECTS = \
@@ -144,7 +144,7 @@ libListModeLib.so: CMakeFiles/ListModeLib.dir/fat32_lib.c.o
 libListModeLib.so: CMakeFiles/ListModeLib.dir/ListModeLib.c.o
 libListModeLib.so: CMakeFiles/ListModeLib.dir/build.make
 libListModeLib.so: CMakeFiles/ListModeLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libListModeLib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libListModeLib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ListModeLib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/ListModeLib.dir/clean:
 .PHONY : CMakeFiles/ListModeLib.dir/clean
 
 CMakeFiles/ListModeLib.dir/depend:
-	cd /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2 /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2 /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2 /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2 /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ListModeLib.dir/depend
 

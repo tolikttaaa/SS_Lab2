@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/ListModeLib.c" "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/ListModeLib.c.o"
-  "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/fat32_lib.c" "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/fat32_lib.c.o"
-  "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/list_mode.c" "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/list_mode.c.o"
-  "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/utils.c" "/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/utils.c.o"
+  "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.c" "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/ListModeLib.c.o"
+  "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c" "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/fat32_lib.c.o"
+  "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/list_mode.c" "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/list_mode.c.o"
+  "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/utils.c" "/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles/ListModeLib.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

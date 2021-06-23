@@ -5,7 +5,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <malloc.h>
+#include <stdlib.h>
 #include "fat32_lib.h"
 
 unsigned int get_fat_table_value(unsigned int active_cluster, unsigned int first_fat_sector, unsigned int sector_size, int fd) {

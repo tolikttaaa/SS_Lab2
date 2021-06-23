@@ -63,10 +63,10 @@ RM = /home/ttaaa/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.6693.114/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2
+CMAKE_SOURCE_DIR = /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -95,14 +95,14 @@ clean: CMakeFiles/ListModeLib.dir/clean
 CMakeFiles/ScriptModeLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptModeLib.dir/build.make CMakeFiles/ScriptModeLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptModeLib.dir/build.make CMakeFiles/ScriptModeLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10 "Built target ScriptModeLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10 "Built target ScriptModeLib"
 .PHONY : CMakeFiles/ScriptModeLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ScriptModeLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ScriptModeLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ScriptModeLib.dir/rule
 
 # Convenience name for target.
@@ -122,14 +122,14 @@ CMakeFiles/ScriptModeLib.dir/clean:
 CMakeFiles/ListModeLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ListModeLib.dir/build.make CMakeFiles/ListModeLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ListModeLib.dir/build.make CMakeFiles/ListModeLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ListModeLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ListModeLib"
 .PHONY : CMakeFiles/ListModeLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ListModeLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ListModeLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/System-Software-Lab2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ListModeLib.dir/rule
 
 # Convenience name for target.

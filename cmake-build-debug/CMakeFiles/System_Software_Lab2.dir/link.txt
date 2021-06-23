@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -g -shared -Wl,-soname,libSystem_Software_Lab2.so -o libSystem_Software_Lab2.so CMakeFiles/System_Software_Lab2.dir/library.c.o 
