@@ -91,7 +91,7 @@ struct dir_value *read_dir(unsigned int first_cluster, struct partition_value *v
     while (!dir_end_reached) {
         struct dir_entry *entry = &buf[j++];
 
-        if ((cluster_size / sizeof(struct dir_entry)) <= (j)) {
+        if ((int) (cluster_size / sizeof(struct dir_entry)) <= j) {
             // cluster limit reached
             unsigned int fat_record = get_fat_table_value(current_cluster, value->fat_boot->reserved_sectors_count,
                                                        sector_size, value->device_fd);

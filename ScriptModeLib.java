@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class ScriptModeLib {
     private final String target;
     private final BufferedReader reader;
+    private long partPointer;
     private String path;
 
     private final static String LS_COMMAND = "ls";
@@ -20,18 +21,18 @@ public class ScriptModeLib {
                 new InputStreamReader(System.in));
         this.target = target;
         path = "";
+        partPointer = 0;
     }
 
     public void run() throws IOException {
-        switch (getPartition(getPath())) {
-            case 0:
-                System.out.println("FAT32 supported!");
-                break;
-            case 1:
-                System.out.println("FAT32 not supported!");
-                exit();
-                return;
+        partPointer = getPartition(getPath());
+        if (partPointer == 0) {
+            System.out.println("FAT32 not supported!");
+            exit();
+            return;
         }
+
+        System.out.println("FAT32 supported!");
 
         while (true) {
             System.out.print(getPath() + "> ");
@@ -59,7 +60,7 @@ public class ScriptModeLib {
                             break;
                         }
 
-                        switch (cpCommand(getPath(), args[1], args[2])) {
+                        switch (cpCommand(partPointer, args[1], args[2])) {
                             case 0:
                                 System.out.println("Copied!");
                                 break;
@@ -76,7 +77,8 @@ public class ScriptModeLib {
 
                         break;
                     case (LS_COMMAND):
-                        System.out.println(lsCommand(getPath()));
+                        System.out.println(lsCommand(partPointer));
+                        System.out.flush();
                         break;
                     case (CD_COMMAND):
                         if (args.length < 2) {
@@ -85,7 +87,8 @@ public class ScriptModeLib {
                             break;
                         }
 
-                        if (cdCommand(getPath(), args[1]) == 1) {
+
+                        if (cdCommand(partPointer, args[1]) == 0) {
                             System.out.println("Cd failed!");
                             System.out.println("Dir not found!");
                         } else {
@@ -107,6 +110,7 @@ public class ScriptModeLib {
                         System.out.println(getPath());
                         break;
                     case (EXIT_COMMAND):
+                        exitCommand(partPointer);
                         System.err.println("EXIT");
                         System.err.flush();
                         exit();
@@ -115,7 +119,6 @@ public class ScriptModeLib {
                     default:
                         System.out.println(helpCommand());
                         System.out.flush();
-
                         break;
                 }
             }
@@ -226,9 +229,10 @@ public class ScriptModeLib {
         }
     }
 
-    public native int getPartition(String path);
-    public native String lsCommand(String path);
-    public native int cdCommand(String path, String to);
-    public native int cpCommand(String path, String from, String to);
+    public native long getPartition(String path);
+    public native String lsCommand(long partPointer);
+    public native int cdCommand(long partPointer, String to);
+    public native int cpCommand(long partPointer, String from, String to);
     public native String helpCommand();
+    public native void exitCommand(long partPointer);
 }

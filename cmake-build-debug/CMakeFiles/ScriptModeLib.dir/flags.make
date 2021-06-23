@@ -6,5 +6,5 @@ C_DEFINES = -DScriptModeLib_EXPORTS
 
 C_INCLUDES = 
 
-C_FLAGS = -g -fPIC -std=gnu11
+C_FLAGS = -g -fPIC -Wall -Wextra -pedantic -Werror -std=gnu99
 

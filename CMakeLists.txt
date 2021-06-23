@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.19)
 project(SS_Lab2 C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
+
+add_compile_options(-Wall -Wextra -pedantic -Werror)
 
 add_library(
         ListModeLib

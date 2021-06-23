@@ -10,34 +10,34 @@ extern "C" {
 /*
  * Class:     ScriptModeLib
  * Method:    getPartition
- * Signature: (Ljava/lang/String;)I
+ * Signature: (Ljava/lang/String;)J
  */
-JNIEXPORT jint JNICALL Java_ScriptModeLib_getPartition
+JNIEXPORT jlong JNICALL Java_ScriptModeLib_getPartition
   (JNIEnv *, jobject, jstring);
 
 /*
  * Class:     ScriptModeLib
  * Method:    lsCommand
- * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ * Signature: (J)Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_ScriptModeLib_lsCommand
-  (JNIEnv *, jobject, jstring);
+  (JNIEnv *, jobject, jlong);
 
 /*
  * Class:     ScriptModeLib
  * Method:    cdCommand
- * Signature: (Ljava/lang/String;Ljava/lang/String;)I
+ * Signature: (JLjava/lang/String;)I
  */
 JNIEXPORT jint JNICALL Java_ScriptModeLib_cdCommand
-  (JNIEnv *, jobject, jstring, jstring);
+  (JNIEnv *, jobject, jlong, jstring);
 
 /*
  * Class:     ScriptModeLib
  * Method:    cpCommand
- * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+ * Signature: (JLjava/lang/String;Ljava/lang/String;)I
  */
 JNIEXPORT jint JNICALL Java_ScriptModeLib_cpCommand
-  (JNIEnv *, jobject, jstring, jstring, jstring);
+  (JNIEnv *, jobject, jlong, jstring, jstring);
 
 /*
  * Class:     ScriptModeLib
@@ -46,6 +46,14 @@ JNIEXPORT jint JNICALL Java_ScriptModeLib_cpCommand
  */
 JNIEXPORT jstring JNICALL Java_ScriptModeLib_helpCommand
   (JNIEnv *, jobject);
+
+/*
+ * Class:     ScriptModeLib
+ * Method:    exitCommand
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_ScriptModeLib_exitCommand
+  (JNIEnv *, jobject, jlong);
 
 #ifdef __cplusplus
 }

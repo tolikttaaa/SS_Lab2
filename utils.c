@@ -6,27 +6,20 @@
 #include <stdlib.h>
 #include "utils.h"
 #include <dirent.h>
-#include "stdio.h"
 
-int error(const char *msg) {
-    fprintf(stderr,"Error: %s\n", msg);
-
-    return -1;
-}
-
-int check_directory(const char *path) {
+int check_directory(char *path) {
     DIR *dir = opendir(path);
     if (dir) return 1;
     else return 0;
 }
 
-int startsWith(const char *str, const char *pre) {
+int startsWith(char *str, char *pre) {
     size_t lenpre = strlen(pre),
             lenstr = strlen(str);
     return lenstr < lenpre ? 0 : memcmp(pre, str, lenpre) == 0;
 }
 
-void append_path_part(char *path, const char *part) {
+void append_path_part(char *path, char *part) {
     strcat(path, "/");
     strcat(path, part);
 }
@@ -64,7 +57,7 @@ char *substr(const char *src, int m, int n) {
 
 char *get_before(char *str, char sym) {
     int i = 0;
-    for (; i < strlen(str); i++) {
+    for (; i < (int) strlen(str); i++) {
         if (str[i] == sym) {
             char *res = substr(str, 0, i);
             return res;

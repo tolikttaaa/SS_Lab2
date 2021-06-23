@@ -35,12 +35,12 @@ void read_devices_properties(struct disk_info *device) {
     char property_value[32];
 
     while ((read = getline(&line, &len, fp)) != -1) {
-        if (startsWith(line, FS_TYPE_PROPERTY)) {
+        if (startsWith(line, (char *) FS_TYPE_PROPERTY)) {
             int property_len = (int)strlen(FS_TYPE_PROPERTY) + 1;
             strncpy(property_value, &line[property_len], read - property_len);
             remove_ending_symbol(property_value, '\n');
             strcpy(device->fs_type, property_value);
-        } else if (startsWith(line, FS_VERSION_PROPERTY)) {
+        } else if (startsWith(line, (char *) FS_VERSION_PROPERTY)) {
             int property_len = (int)strlen(FS_VERSION_PROPERTY) + 1;
             strncpy(property_value, &line[property_len], read - property_len);
             remove_ending_symbol(property_value, '\n');
@@ -79,7 +79,6 @@ void add_disk_partition_info(struct disk_info *info, struct dirent *sys_block_ch
 }
 
 char *run_list_mode() {
-    fprintf(stderr, "I'm here");
     const int MAX_DISKS = 256;
     const char *sys_block_path = "/sys/block/";
     struct disk_info *disks = (struct disk_info *) malloc(MAX_DISKS * sizeof(struct disk_info));
