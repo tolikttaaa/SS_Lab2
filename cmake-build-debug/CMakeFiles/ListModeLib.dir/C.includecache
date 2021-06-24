@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.c
-ListModeLib.h
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.h
-list_mode.h
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/list_mode.h
-
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/ListModeLib.h
-jni.h
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni.h
-
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.c
+string.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
 stdio.h
 -
-stdarg.h
--
-jni_md.h
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni_md.h
+fat32_lib.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.h
 
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/jni_md.h
-
-/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/list_mode.h
+/home/ttaaa/gitlab.se.ifmo.ru/SS_Labs/SS_Lab2/fat32_lib.h
 
